@@ -1,0 +1,10 @@
+# Ignore everything by default, then explicitly allow source/text files.
+# This keeps `go build` binaries (which have no extension) out of git
+# no matter what they're named, without having to list each one.
+*
+!*/
+!*.go
+!*.mod
+!*.sum
+!*.md
+!.gitignore
